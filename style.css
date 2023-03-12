@@ -1,0 +1,539 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .topbar {
+        background-color: aqua;
+        width: 100%;
+        height: 70px;
+    }
+    
+    .website-name {
+        display: flex;
+    }
+    
+    .website-name h3 {
+        padding-left: 170px;
+        margin-top: 13px;
+    }
+    
+    .topbar img {
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border-radius: 50%;
+    }
+    
+    .topbar ul {
+        list-style: none;
+        float: right;
+        margin-right: 20px;
+        margin-top: -41px;
+        font-size: 20px;
+    }
+    
+    .topbar ul li {
+        display: inline-block;
+        padding-right: 70px;
+    }
+    
+    .topbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .topbar ul li a:hover {
+        color: aliceblue;
+        transition: 0.5s;
+    }
+    
+    @media screen and (max-width:600px) {
+        .website-name h3 {
+            padding-left: 30px;
+            font-size: 1.2em;
+            padding-top: 0.8em;
+        }
+        .topbar ul li {
+            font-size: 0.9em;
+            padding-right: 0.15em;
+        }
+        .website-name img {
+            margin-left: 0;
+        }
+    }
+    /**********************Rest of tha content*********************/
+    
+    .boxed-article2 {
+        border: 0px solid rgb(236, 8, 8);
+        width: 30%;
+        height: 290px;
+        float: right;
+        margin-top: -290px;
+    }
+    
+    @media screen and (max-width:600px) {
+        .boxed-article2 {
+            width: 14.3em;
+            height: 13em;
+            margin-right: 1.2em;
+            margin-top: -380px;
+        }
+    }
+    
+    .boxed-articles {
+        border: 0px solid black;
+        width: 70%;
+        margin-top: 6px;
+        height: 590px;
+    }
+    
+    .art {
+        display: flex;
+    }
+    
+    .art2 {
+        display: flex;
+    }
+    
+    .article {
+        border: 0px solid black;
+        width: 50%;
+        height: 280px;
+        margin-left: 1%;
+        background-color: white;
+        position: relative;
+        border-radius: 3%;
+    }
+    
+    @media screen and (max-width:600px) {
+        .article {
+            height: 10.3em;
+            width: 7.0em;
+        }
+    }
+    /*******For the image of the bird********/
+    
+    .art .article img {
+        height: 200px;
+        width: 100%;
+        border-radius: 5%;
+    }
+    
+    .art .article h4 {
+        font-size: 15px;
+        padding-left: 2%;
+        color: #b80fe2;
+    }
+    
+    .article p {
+        float: bottom;
+        font-size: 17px;
+        color: #666666;
+    }
+    
+    @media screen and (max-width:600px) {
+        .article p {
+            font-size: 0.55em;
+        }
+        .art .article img {
+            height: 5.1em;
+        }
+    }
+    /***********Third and fouth articles***************/
+    
+    .art2 .article img {
+        height: 200px;
+        width: 100%;
+        border-radius: 5%;
+    }
+    
+    @media screen and (max-width:600px) {
+        .art2 .article img {
+            height: 5.1em;
+        }
+    }
+    /*******SIDE BAR********/
+    
+    .side {
+        display: flex;
+    }
+    
+    .sidebar {
+        border: 0px solid red;
+        width: 40%;
+        height: 270px;
+        margin-top: 3%;
+        margin-left: 4%;
+        border-radius: 5%;
+    }
+    
+    .side .sidebar img {
+        width: 90%;
+        height: 200px;
+    }
+    
+    .side .sidebar p {
+        color: #0fe619;
+        font-size: 20px;
+        font-weight: 100px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
+    
+    .side .sidebar p i {
+        color: #ff33cc;
+    }
+    /*********Sidebar2**********/
+    
+    .sidebar2 {
+        border: 0px solid red;
+        width: 40%;
+        height: 270px;
+        margin-top: 3%;
+        margin-left: 4%;
+        border-radius: 5%;
+    }
+    
+    .side .sidebar2 img {
+        width: 100%;
+        height: 150px;
+        border-radius: 5%;
+    }
+    
+    .side .sidebar2 p {
+        padding-top: 10%;
+        padding-left: 15%;
+        color: #00ffff;
+    }
+    /*******************About page**********************/
+    
+    .abt {
+        border: 0px solid black;
+        width: 40%;
+        height: 50px;
+        margin-top: 3%;
+        margin-left: 30%;
+    }
+    
+    .us {
+        border: 0px solid black;
+        width: 50%;
+        margin-top: 7%;
+        height: 500px;
+        margin-left: -6%;
+        background-color: white;
+        border-top-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+    }
+    
+    .us h4 {
+        margin-top: 3%;
+        margin-left: 7%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #66e0ff;
+    }
+    
+    .us h2 {
+        text-align: center;
+        font-size: 26px;
+        padding-top: 3%;
+    }
+    
+    #a-img img {
+        width: 30%;
+        height: 150px;
+        padding-top: 5%;
+    }
+    
+    .book-now a {
+        color: white;
+        vertical-align: middle;
+        font-size: 20px;
+        padding-left: 14px;
+        text-decoration: none;
+    }
+    
+    .abt_img img {
+        width: 40%;
+        height: 650px;
+        margin-left: 10%;
+        padding-top: 3%;
+    }
+    
+    .abt_img {
+        display: flex;
+    }
+    
+    .abt_img p {
+        padding-top: 5%;
+        text-align: center;
+        padding-left: 2%;
+        color: #7a7a52;
+        font-size: large;
+    }
+    
+    .book-now {
+        border: 0px solid black;
+        width: 16%;
+        height: 30px;
+        margin-left: 10%;
+        margin-top: 40px;
+        background-color: #0fe619;
+    }
+    
+    @media screen and (max-width:600px) {
+        .abt {
+            height: 1.5em;
+        }
+        .abt h2 {
+            font-size: 1.0em;
+        }
+        .abt_img img {
+            width: 40%;
+            height: 400px;
+        }
+        .us {
+            width: 30%;
+            height: 300px;
+        }
+        .us h2 {
+            font-size: 0.9em;
+        }
+        .us p {
+            font-size: x-small;
+        }
+        #a-img img {
+            width: 50px;
+            height: 50px;
+        }
+        .book-now {
+            margin-top: 16px;
+            width: 100px;
+            height: 30px;
+        }
+        .book-now a {
+            font-size: 1em;
+        }
+    }
+    /*******************Information page**********************/
+    
+    .service {
+        font-size: xx-large;
+        color: #888844;
+        text-align: center;
+        margin-top: 4%;
+    }
+    
+    .pics {
+        display: flex;
+    }
+    
+    .portion {
+        border: 1px solid black;
+        width: 40%;
+        height: 200px;
+        margin-left: 5%;
+        margin-top: 3%;
+        display: flex;
+        border-radius: 5%;
+    }
+    
+    .portion h3 {
+        color: #55552b;
+        font-size: 26px;
+    }
+    
+    .portion p {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .portion img {
+        height: 200px;
+        width: 40%;
+        border-radius: 5%;
+    }
+    
+    .pics2 {
+        display: flex;
+    }
+    
+    .portion2 {
+        border: 1px solid black;
+        width: 40%;
+        height: 200px;
+        margin-left: 5%;
+        margin-top: 3%;
+        display: flex;
+        border-radius: 5%;
+    }
+    
+    .portion2 img {
+        height: 200px;
+        width: 40%;
+        border-radius: 5%;
+    }
+    
+    .portion2 h3 {
+        color: #55552b;
+        font-size: 26px;
+    }
+    
+    .portion2 p {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    @media screen and (max-width:600px) {
+        .portion {
+            height: 120px;
+        }
+        .portion h3 {
+            font-size: 0.6em;
+        }
+        .portion p {
+            font-size: xx-small;
+        }
+        .portion2 {
+            height: 120px;
+        }
+        .portion img {
+            height: 120px;
+            width: 50%;
+        }
+        .portion2 img {
+            height: 120px;
+            width: 50%;
+        }
+        .portion2 h3 {
+            font-size: 0.6em;
+        }
+        .portion2 p {
+            font-size: xx-small;
+        }
+    }
+    /*******************Contact page**********************/
+    
+    .cont {
+        font-size: xx-large;
+        color: #666600;
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .icons {
+        display: flex;
+        margin-left: 5%;
+        padding-top: 3%;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+    /********************Calender**************************/
+    
+    .calender {
+        margin-left: 10px;
+        margin-right: 4px;
+    }
+    
+    .month h4 {
+        color: #0099e6;
+        font-size: 25px;
+    }
+    
+    .table th {
+        color: #ff4dff;
+    }
+    
+    .table td {
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .table td:hover {
+        color: #ff33ff;
+    }
+    
+    @media screen and (max-width:600px) {
+        .calender {}
+        .table {
+            margin-left: -9.94px;
+            margin-right: 90px;
+            width: 40px;
+        }
+        .table tr {
+            font-size: xx-small;
+            height: 10px;
+        }
+        .table tr td {
+            padding-left: 1px;
+            padding-right: 2px;
+        }
+        .calender h4 {
+            font-size: 0.7em;
+        }
+    }
+    /***************************BOOKINGS******************************/
+    
+    .booking {
+        border: 0px solid green;
+        width: 28%;
+        height: 290px;
+        float: right;
+        background-color: white;
+        margin-top: -43.5%;
+        border-top-right-radius: 7%;
+        border-bottom-left-radius: 7%;
+        padding-left: 15px;
+    }
+    
+    @media screen and (max-width:600px) {
+        .booking {
+            width: 14.0em;
+            height: 13em;
+            margin-top: -37em;
+            margin-right: 1.2em;
+        }
+        .booking h2 {
+            font-size: 1.0em;
+        }
+        .booking h4 {
+            font-size: 0.9em;
+        }
+        .booking h5 {
+            font-size: 0.9em;
+            margin-top: -0.5em;
+        }
+    }
+    
+    .booking h2 i:hover {
+        color: #4dffff;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    .booking h4 {
+        color: #00e6b8;
+        text-align: center;
+    }
+    
+    .booking h2 {
+        color: #666600;
+        justify-content: space-between;
+    }
+    
+    .guide {
+        display: flex;
+        padding-top: 10px;
+    }
+    
+    .ticket {
+        display: flex;
+        padding-top: 20px;
+    }
+    
+    .hotel {
+        display: flex;
+        padding-top: 10px;
+    }
