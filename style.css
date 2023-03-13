@@ -78,7 +78,7 @@
             width: 18.3em;
             height: 13em;
             float: left;
-            margin-left: 5em;
+            margin-left: 0.5em;
             margin-top: 6em;
         }
     }
@@ -125,7 +125,7 @@
             height: 12.3em;
             width: 20.0em;
             display: inline-block;
-            margin-left: 5em;
+            margin-left: 0.5em;
             margin-top: 1em;
         }
     }
@@ -225,6 +225,18 @@
     }
     /*******************About page**********************/
     
+    #back a {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: #b80fe2;
+        margin-left: 2em;
+    }
+    
+    #back a:hover {
+        color: #0fe619;
+        transition: 0.5s;
+    }
+    
     .abt {
         border: 0px solid black;
         width: 40%;
@@ -301,17 +313,17 @@
     
     @media screen and (max-width:600px) {
         .abt {
-            height: 1.5em;
+            height: 1.9em;
         }
         .abt h2 {
             font-size: 1.0em;
         }
         .abt_img img {
-            width: 40%;
+            width: 50%;
             height: 400px;
         }
         .us {
-            width: 30%;
+            width: 40%;
             height: 300px;
         }
         .us h2 {
@@ -432,6 +444,18 @@
     }
     /*******************Contact page**********************/
     
+    #back a {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: #b80fe2;
+        margin-left: 2em;
+    }
+    
+    #back a:hover {
+        color: #0fe619;
+        transition: 0.5s;
+    }
+    
     .cont {
         font-size: xx-large;
         color: #666600;
@@ -445,6 +469,26 @@
         padding-top: 3%;
         justify-content: space-between;
         justify-content: space-around;
+    }
+    
+    .reachus h4 {
+        font-size: 30px;
+        color: #994d00;
+    }
+    
+    @media screen and (max-width:600px) {
+        .cont h1 {
+            font-size: 1.4em;
+        }
+        .cont h3 {
+            font-size: 0.5em;
+        }
+        .reachus h3 {
+            font-size: 0.9em;
+        }
+        .reachus p {
+            font-size: 0.5em;
+        }
     }
     /********************Calender**************************/
     
@@ -507,16 +551,16 @@
             height: 13em;
             float: left;
             margin-top: 5em;
-            margin-left: 7em;
+            margin-left: 0.7em;
         }
         .booking h2 {
-            font-size: 0.6em;
+            font-size: 1.2em;
         }
         .booking h4 {
-            font-size: 0.6em;
+            font-size: 1em;
         }
         .booking h5 {
-            font-size: 0.6em;
+            font-size: 1em;
             margin-top: -0.7em;
         }
     }
