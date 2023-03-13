@@ -51,13 +51,13 @@
     
     @media screen and (max-width:600px) {
         .website-name h3 {
-            padding-left: 30px;
+            padding-left: 25px;
             font-size: 1.2em;
-            padding-top: 0.8em;
+            margin-top: 0.1em;
         }
         .topbar ul li {
-            font-size: 0.9em;
-            padding-right: 0.15em;
+            font-size: 0.7em;
+            padding-right: 0.9em;
         }
         .website-name img {
             margin-left: 0;
@@ -75,10 +75,11 @@
     
     @media screen and (max-width:600px) {
         .boxed-article2 {
-            width: 14.3em;
+            width: 18.3em;
             height: 13em;
-            margin-right: 1.2em;
-            margin-top: -380px;
+            float: left;
+            margin-left: 5em;
+            margin-top: 6em;
         }
     }
     
@@ -87,6 +88,12 @@
         width: 70%;
         margin-top: 6px;
         height: 590px;
+    }
+    
+    @media screen and (max-width:600px) {
+        .boxed-articles {
+            display: inline-block;
+        }
     }
     
     .art {
@@ -98,7 +105,7 @@
     }
     
     .article {
-        border: 0px solid black;
+        border: 1px solid black;
         width: 50%;
         height: 280px;
         margin-left: 1%;
@@ -108,9 +115,18 @@
     }
     
     @media screen and (max-width:600px) {
+        .art {
+            display: inline-block;
+        }
+        .art2 {
+            display: inline-block;
+        }
         .article {
-            height: 10.3em;
-            width: 7.0em;
+            height: 12.3em;
+            width: 20.0em;
+            display: inline-block;
+            margin-left: 5em;
+            margin-top: 1em;
         }
     }
     /*******For the image of the bird********/
@@ -135,10 +151,10 @@
     
     @media screen and (max-width:600px) {
         .article p {
-            font-size: 0.55em;
+            font-size: 0.75em;
         }
         .art .article img {
-            height: 5.1em;
+            height: 7.9em;
         }
     }
     /***********Third and fouth articles***************/
@@ -151,7 +167,7 @@
     
     @media screen and (max-width:600px) {
         .art2 .article img {
-            height: 5.1em;
+            height: 7.9em;
         }
     }
     /*******SIDE BAR********/
@@ -456,11 +472,8 @@
     }
     
     @media screen and (max-width:600px) {
-        .calender {}
         .table {
-            margin-left: -9.94px;
             margin-right: 90px;
-            width: 40px;
         }
         .table tr {
             font-size: xx-small;
@@ -471,13 +484,13 @@
             padding-right: 2px;
         }
         .calender h4 {
-            font-size: 0.7em;
+            font-size: 0.9em;
         }
     }
     /***************************BOOKINGS******************************/
     
     .booking {
-        border: 0px solid green;
+        border: 1px solid green;
         width: 28%;
         height: 290px;
         float: right;
@@ -490,20 +503,21 @@
     
     @media screen and (max-width:600px) {
         .booking {
-            width: 14.0em;
+            width: 15.0em;
             height: 13em;
-            margin-top: -37em;
-            margin-right: 1.2em;
+            float: left;
+            margin-top: 5em;
+            margin-left: 7em;
         }
         .booking h2 {
-            font-size: 1.0em;
+            font-size: 0.6em;
         }
         .booking h4 {
-            font-size: 0.9em;
+            font-size: 0.6em;
         }
         .booking h5 {
-            font-size: 0.9em;
-            margin-top: -0.5em;
+            font-size: 0.6em;
+            margin-top: -0.7em;
         }
     }
     
@@ -536,4 +550,22 @@
     .hotel {
         display: flex;
         padding-top: 10px;
+    }
+    /********************Copy right**********************/
+    
+    .copyright hr {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .copyright p {
+        text-align: center;
+        color: #00ffff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    @media screen and (max-width:600px) {
+        .copyright {
+            margin-top: 40em;
+        }
     }
