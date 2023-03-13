@@ -105,7 +105,7 @@
     }
     
     .article {
-        border: 1px solid black;
+        border: 0px solid black;
         width: 50%;
         height: 280px;
         margin-left: 1%;
@@ -359,7 +359,7 @@
     }
     
     .portion {
-        border: 1px solid black;
+        border: 0px solid black;
         width: 40%;
         height: 200px;
         margin-left: 5%;
@@ -389,7 +389,7 @@
     }
     
     .portion2 {
-        border: 1px solid black;
+        border: 0px solid black;
         width: 40%;
         height: 200px;
         margin-left: 5%;
@@ -534,7 +534,7 @@
     /***************************BOOKINGS******************************/
     
     .booking {
-        border: 1px solid green;
+        border: 0px solid green;
         width: 28%;
         height: 290px;
         float: right;
