@@ -77,15 +77,24 @@
     }
     /**********************Rest of tha content*********************/
     
-    .boxed-article2 {
-        border: 0px solid rgb(236, 8, 8);
-        width: 30%;
-        height: 290px;
-        float: right;
-        margin-top: -290px;
+    .arti-siderpage {
+        border: 0px solid green;
+        display: flex;
+    }
+    
+    .calender-booking {
+        border: 0px solid yellow;
     }
     
     @media screen and (max-width:600px) {
+        .arti-siderpage {
+            display: block;
+            height: 99em;
+        }
+        .calender-booking {
+            margin-top: 2.7em;
+            height: 34em;
+        }
         .boxed-article2 {
             width: 18.3em;
             height: 13em;
@@ -102,16 +111,28 @@
         }
     }
     
+    @media screen and (min-width:900px) {
+        .calender-booking {
+            margin-left: 1em;
+            width: 28em;
+        }
+        .boxed-article2 {
+            width: 17.5em;
+            height: 13.9em;
+        }
+    }
+    
     .boxed-articles {
         border: 0px solid black;
         width: 70%;
         margin-top: 6px;
-        height: 590px;
+        height: 595px;
     }
     
     @media screen and (max-width:600px) {
         .boxed-articles {
             display: inline-block;
+            height: 55em;
         }
     }
     
@@ -542,6 +563,8 @@
     /********************Calender**************************/
     
     .calender {
+        border: 0px solid red;
+        width: 20em;
         margin-left: 10px;
         margin-right: 4px;
     }
@@ -565,16 +588,9 @@
     }
     
     @media screen and (max-width:600px) {
-        .table {
-            margin-right: 90px;
-        }
         .table tr {
             font-size: xx-small;
             height: 10px;
-        }
-        .table tr td {
-            padding-left: 1px;
-            padding-right: 2px;
         }
         .calender h4 {
             font-size: 0.9em;
@@ -596,18 +612,25 @@
             font-size: 0.7em;
         }
     }
+    
+    @media screen and (min-width:900px) {
+        .calender {
+            width: 25em;
+        }
+        .table td {
+            font-size: 1.5em;
+        }
+    }
     /***************************BOOKINGS******************************/
     
     .booking {
         border: 0px solid green;
-        width: 28%;
+        width: 85%;
         height: 290px;
-        float: right;
         background-color: white;
-        margin-top: -43.5%;
+        margin-left: 0.8em;
         border-top-right-radius: 7%;
         border-bottom-left-radius: 7%;
-        padding-left: 15px;
     }
     
     @media screen and (max-width:600px) {
@@ -633,7 +656,6 @@
     @media screen and (max-width:1200px) and (min-width:601px) {
         .booking {
             margin-right: 1em;
-            margin-top: -36.5em;
             width: 16em;
             height: 14em;
         }
@@ -645,6 +667,24 @@
         }
         .booking a {
             font-size: 0.7em;
+        }
+    }
+    
+    @media screen and (min-width:900px) {
+        .booking {
+            width: 25em;
+            margin-top: 1em;
+            height: 16em;
+        }
+        .booking h5 {
+            font-size: 1em;
+        }
+        .booking h2 {
+            font-size: 1em;
+            padding-left: 1em;
+        }
+        .booking a {
+            font-size: 1em;
         }
     }
     
@@ -681,12 +721,13 @@
     /********************Copy right**********************/
     
     .copyright {
-        padding-top: 20px;
+        padding-top: 10px;
     }
     
     .copyright hr {
         margin-left: 50px;
         margin-right: 50px;
+        color: #0000e6;
     }
     
     .copyright p {
@@ -694,9 +735,120 @@
         color: #669999;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+    /********************Footer**********************/
+    
+    .footer {
+        border: 0px solid red;
+        height: 400px;
+        background-color: #adad85;
+        margin-top: 1em;
+    }
+    
+    .mission h4 {
+        color: #00b386;
+        font-family: georgia;
+        margin-left: 2em;
+        margin-top: 0.7em;
+    }
+    
+    .vision h4 {
+        color: #00b386;
+        font-family: georgia;
+        margin-left: 2em;
+        margin-top: 0.7em;
+    }
+    
+    .mission p {
+        margin-left: 0.5em;
+        font-style: italic;
+    }
+    
+    .vision p {
+        margin-left: 0.5em;
+        font-style: italic;
+    }
+    
+    .social-pages {
+        margin-left: 30em;
+        padding-top: 1em;
+    }
+    
+    .social-pages a {
+        display: block;
+        text-decoration: none;
+        padding-left: 5em;
+        padding-top: 1em;
+        color: #73264d;
+    }
+    
+    .social-pages a i {
+        font-size: 25px;
+        color: #0099e6;
+    }
+    
+    #container {
+        display: flex;
+    }
     
     @media screen and (max-width:600px) {
-        .copyright {
-            margin-top: 40em;
+        #container {
+            display: block;
+        }
+        .social-pages {
+            margin-left: 0em;
+        }
+        .social-pages h5 {
+            font-size: 0.8em;
+        }
+        .social-pages a {
+            padding-left: 0.5em;
+        }
+        #mission-vision h4 {
+            font-size: 1.0em;
+        }
+        #mission-vision p {
+            font-size: 0.8em;
+        }
+    }
+    
+    @media screen and (max-width:900px) and (min-width:601px) {
+        #container {
+            display: block;
+        }
+        .social-pages {
+            margin-left: 0;
+        }
+        .social-pages h5 {
+            font-size: 0.8em;
+        }
+        .social-pages a {
+            padding-left: 0.5em;
+        }
+        #mission-vision h4 {
+            font-size: 1.0em;
+        }
+        #mission-vision p {
+            font-size: 0.8em;
+        }
+    }
+    
+    @media screen and (min-width:901px) {
+        #container {
+            display: flex;
+        }
+        .social-pages {
+            float: right;
+        }
+        .social-pages h5 {
+            font-size: 1em;
+        }
+        .social-pages a {
+            padding-left: 0.5em;
+        }
+        #mission-vision h4 {
+            font-size: 1.0em;
+        }
+        #mission-vision p {
+            font-size: 0.8em;
         }
     }
