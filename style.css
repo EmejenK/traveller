@@ -63,6 +63,18 @@
             margin-left: 0;
         }
     }
+    
+    @media screen and (max-width:1200px) and (min-width:601px) {
+        .website-name h3 {
+            padding-left: 25px;
+            font-size: 1.2em;
+            margin-top: 0.1em;
+        }
+        .topbar ul li {
+            font-size: 0.7em;
+            padding-right: 0.9em;
+        }
+    }
     /**********************Rest of tha content*********************/
     
     .boxed-article2 {
@@ -83,6 +95,13 @@
         }
     }
     
+    @media screen and (max-width:1200px) and (min-width:601px) {
+        .boxed-article2 {
+            width: 17.5em;
+            height: 13.9em;
+        }
+    }
+    
     .boxed-articles {
         border: 0px solid black;
         width: 70%;
@@ -93,6 +112,12 @@
     @media screen and (max-width:600px) {
         .boxed-articles {
             display: inline-block;
+        }
+    }
+    
+    @media screen and (max-width:1200px) and (min-width:601px) {
+        .boxed-articles {
+            width: 50%;
         }
     }
     
@@ -129,6 +154,12 @@
             margin-top: 1em;
         }
     }
+    
+    @media screen and (max-width:1200px) and (min-width:601px) {
+        .article {
+            width: 100%;
+        }
+    }
     /*******For the image of the bird********/
     
     .art .article img {
@@ -157,6 +188,15 @@
             height: 7.9em;
         }
     }
+    
+    @media screen and (max-width:1200px) and (min-width:601px) {
+        .art .article img {
+            height: 6em;
+        }
+        .art .article p {
+            font-size: 0.9em;
+        }
+    }
     /***********Third and fouth articles***************/
     
     .art2 .article img {
@@ -168,6 +208,15 @@
     @media screen and (max-width:600px) {
         .art2 .article img {
             height: 7.9em;
+        }
+    }
+    
+    @media screen and (max-width:1200px) and (min-width:601px) {
+        .art2 .article img {
+            height: 6em;
+        }
+        .art2 .article p {
+            font-size: 0.9em;
         }
     }
     /*******SIDE BAR********/
@@ -497,7 +546,7 @@
         margin-right: 4px;
     }
     
-    .month h4 {
+    .calender h4 {
         color: #0099e6;
         font-size: 25px;
     }
@@ -531,6 +580,22 @@
             font-size: 0.9em;
         }
     }
+    
+    @media screen and (max-width:1200px) and (min-width:601px) {
+        .table {
+            margin-left: -5px;
+        }
+        .calender h4 {
+            text-align: center;
+            font-size: 18px;
+        }
+        .table tr {
+            font-size: 0.7em;
+        }
+        .table td {
+            font-size: 0.7em;
+        }
+    }
     /***************************BOOKINGS******************************/
     
     .booking {
@@ -562,6 +627,24 @@
         .booking h5 {
             font-size: 1em;
             margin-top: -0.7em;
+        }
+    }
+    
+    @media screen and (max-width:1200px) and (min-width:601px) {
+        .booking {
+            margin-right: 1em;
+            margin-top: -36.5em;
+            width: 16em;
+            height: 14em;
+        }
+        .booking h5 {
+            font-size: 0.8em;
+        }
+        .booking h2 {
+            font-size: 0.8em;
+        }
+        .booking a {
+            font-size: 0.7em;
         }
     }
     
