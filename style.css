@@ -680,6 +680,10 @@
     }
     /********************Copy right**********************/
     
+    .copyright {
+        padding-top: 20px;
+    }
+    
     .copyright hr {
         margin-left: 50px;
         margin-right: 50px;
@@ -687,7 +691,7 @@
     
     .copyright p {
         text-align: center;
-        color: #00ffff;
+        color: #669999;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
