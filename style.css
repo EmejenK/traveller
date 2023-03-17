@@ -171,7 +171,7 @@
         }
         .article {
             height: 15.3em;
-            width: 27.0em;
+            width: 23.0em;
             display: inline-block;
             margin-left: 0.7em;
             margin-top: 1em;
@@ -302,7 +302,7 @@
         color: #e68a00;
         font-size: 3em;
         font-family: serif;
-        padding-top: 1em;
+        padding-top: 0.1em;
     }
     
     #places {
@@ -736,7 +736,7 @@
     
     @media screen and (max-width:600px) {
         .calender {
-            width: 25em;
+            width: 23em;
         }
         .table tr {
             font-size: xx-small;
@@ -785,7 +785,7 @@
     
     @media screen and (max-width:600px) {
         .booking {
-            width: 25.0em;
+            width: 23.0em;
             height: 15em;
             float: left;
             margin-top: 3em;
