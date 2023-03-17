@@ -16,6 +16,7 @@
     .website-name h3 {
         padding-left: 170px;
         margin-top: 13px;
+        border-right: 2px solid purple;
     }
     
     .topbar img {
@@ -293,6 +294,87 @@
         padding-left: 15%;
         color: #00ffff;
     }
+    /*******************Packages**********************/
+    
+    .packages h3 {
+        text-align: center;
+        color: #e68a00;
+        font-size: 3em;
+        font-family: serif;
+        padding-top: 1em;
+    }
+    
+    #places {
+        display: flex;
+    }
+    
+    #places2 {
+        display: flex;
+        margin-top: 1em;
+    }
+    
+    #first {
+        border: 0px solid green;
+        width: 25em;
+        height: 30em;
+        margin: auto;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    #first img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    #first hr {
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
+    #first h5 {
+        text-align: center;
+    }
+    
+    #location {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0.9em;
+    }
+    
+    #location p i {
+        color: #0fe619;
+        padding-right: 0.3em;
+    }
+    
+    #stared-cost {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    #stared-cost h6 i {
+        color: #0fe619;
+    }
+    
+    #stared-cost h6 span {
+        font-size: small;
+        font-style: italic;
+    }
+    
+    @media screen and (max-width:600px) {
+        #places {
+            display: block;
+        }
+        #places2 {
+            display: block;
+        }
+        #first {
+            margin-top: 1em;
+        }
+    }
     /*******************About page**********************/
     
     #back a {
@@ -545,6 +627,66 @@
         font-size: 30px;
         color: #994d00;
     }
+    /*****contact form****/
+    
+    .send-details h4 {
+        margin-left: 33%;
+        padding-top: 1.8em;
+        color: #994d00;
+        font-size: 2em;
+    }
+    
+    #form {
+        border: 0px solid black;
+        margin-left: 30%;
+        margin-top: 2em;
+        width: 30%;
+        height: 450px;
+        border-radius: 1em;
+        background-color: #737373;
+    }
+    
+    .form-grp input {
+        padding: 1.3em;
+        margin-top: 1em;
+        margin-left: 1em;
+        width: 20em;
+        border: none;
+        border-radius: 2px;
+    }
+    
+    .form-grp textarea {
+        margin-top: 1em;
+        margin-left: 1em;
+        width: 22.6em;
+    }
+    
+    .form-grp input placeholder {
+        margin-left: 0;
+    }
+    
+    @media screen and (max-width:600px) {
+        #form {
+            width: 68%;
+            margin-left: 1em;
+        }
+        .send-details h4 {
+            margin-left: 1em;
+        }
+    }
+    
+    @media screen and (min-width:601px) and (max-width:1100px) {
+        #form {
+            margin-left: 30%;
+            width: 60%;
+        }
+        .form-grp input {
+            margin-left: 4em;
+        }
+        .form-grp textarea {
+            margin-left: 4em;
+        }
+    }
     
     @media screen and (max-width:600px) {
         .cont h1 {
@@ -732,27 +874,29 @@
     
     .copyright p {
         text-align: center;
-        color: #669999;
+        color: #ffff;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     /********************Footer**********************/
     
     .footer {
         border: 0px solid red;
-        height: 400px;
-        background-color: #adad85;
+        height: 350px;
+        background-image: url('images/footer.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 350px;
         margin-top: 1em;
     }
     
     .mission h4 {
-        color: #00b386;
+        color: #ffff;
         font-family: georgia;
         margin-left: 2em;
         margin-top: 0.7em;
     }
     
     .vision h4 {
-        color: #00b386;
+        color: #ffff;
         font-family: georgia;
         margin-left: 2em;
         margin-top: 0.7em;
