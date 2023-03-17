@@ -16,7 +16,6 @@
     .website-name h3 {
         padding-left: 170px;
         margin-top: 13px;
-        border-right: 2px solid purple;
     }
     
     .topbar img {
@@ -43,6 +42,8 @@
     .topbar ul li a {
         text-decoration: none;
         color: black;
+        border-right: 2px solid purple;
+        border-left: 2px solid rgb(236, 233, 14);
     }
     
     .topbar ul li a:hover {
@@ -93,7 +94,7 @@
             height: 99em;
         }
         .calender-booking {
-            margin-top: 2.7em;
+            margin-top: 6.7em;
             height: 34em;
         }
         .boxed-article2 {
@@ -125,9 +126,9 @@
     
     .boxed-articles {
         border: 0px solid black;
-        width: 70%;
+        width: 90%;
         margin-top: 6px;
-        height: 595px;
+        height: 710px;
     }
     
     @media screen and (max-width:600px) {
@@ -169,10 +170,10 @@
             display: inline-block;
         }
         .article {
-            height: 12.3em;
-            width: 20.0em;
+            height: 15.3em;
+            width: 27.0em;
             display: inline-block;
-            margin-left: 0.5em;
+            margin-left: 0.7em;
             margin-top: 1em;
         }
     }
@@ -365,6 +366,9 @@
     }
     
     @media screen and (max-width:600px) {
+        .packages h3 {
+            font-size: 2em;
+        }
         #places {
             display: block;
         }
@@ -373,6 +377,7 @@
         }
         #first {
             margin-top: 1em;
+            width: 24em;
         }
     }
     /*******************About page**********************/
@@ -637,7 +642,7 @@
     }
     
     #form {
-        border: 0px solid black;
+        border: 0px solid rgb(245, 39, 39);
         margin-left: 30%;
         margin-top: 2em;
         width: 30%;
@@ -667,7 +672,7 @@
     
     @media screen and (max-width:600px) {
         #form {
-            width: 68%;
+            width: 93%;
             margin-left: 1em;
         }
         .send-details h4 {
@@ -730,6 +735,9 @@
     }
     
     @media screen and (max-width:600px) {
+        .calender {
+            width: 25em;
+        }
         .table tr {
             font-size: xx-small;
             height: 10px;
@@ -777,10 +785,10 @@
     
     @media screen and (max-width:600px) {
         .booking {
-            width: 15.0em;
-            height: 13em;
+            width: 25.0em;
+            height: 15em;
             float: left;
-            margin-top: 5em;
+            margin-top: 3em;
             margin-left: 0.7em;
         }
         .booking h2 {
@@ -863,13 +871,13 @@
     /********************Copy right**********************/
     
     .copyright {
-        padding-top: 10px;
+        padding-top: -5em;
     }
     
     .copyright hr {
         margin-left: 50px;
         margin-right: 50px;
-        color: #0000e6;
+        color: #fff;
     }
     
     .copyright p {
@@ -881,7 +889,7 @@
     
     .footer {
         border: 0px solid red;
-        height: 350px;
+        height: 390px;
         background-image: url('images/footer.jpg');
         background-repeat: no-repeat;
         background-size: 100% 350px;
