@@ -859,10 +859,8 @@
     
     #first-testmony:hover {
         background-color: #d9b3ff;
-        width: 15em;
-        height: 22em;
         transition: 1s;
-        transform: skewX(10deg);
+        transform: rotate(360deg);
     }
     
     #first-testmony img {
@@ -900,10 +898,8 @@
     
     #second-testmony:hover {
         background-color: #d9b3ff;
-        width: 15em;
-        height: 22em;
         transition: 1s;
-        transform: skewX(10deg);
+        transform: rotate(360deg);
     }
     
     #second-testmony img {
@@ -941,10 +937,8 @@
     
     #third-testmony:hover {
         background-color: #d9b3ff;
-        width: 15em;
-        height: 22em;
         transition: 1s;
-        transform: skewX(10deg);
+        transform: rotate(360deg);
     }
     
     #third-testmony img {
