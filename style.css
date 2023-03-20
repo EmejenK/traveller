@@ -365,7 +365,7 @@
     
     @media (max-width: 600px) {
         .flip {
-            width: 520px;
+            width: 400px;
         }
     }
     /*******************Packages**********************/
@@ -692,7 +692,7 @@
     }
     
     .wepartner pre {
-        transform: translate(10%, -270%);
+        transform: translate(10%, -200%);
         position: absolute;
         font-size: 2.2em;
         color: #993366;
