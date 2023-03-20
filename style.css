@@ -362,6 +362,12 @@
         color: #5fe612;
         font-size: 2em;
     }
+    
+    @media (max-width: 600px) {
+        .flip {
+            width: 520px;
+        }
+    }
     /*******************Packages**********************/
     
     .packages h3 {
@@ -692,6 +698,16 @@
         color: #993366;
         font-weight: bold;
         font-family: serif;
+    }
+    
+    @media(max-width:600px) {
+        .wepartner pre {
+            font-size: x-large;
+            transform: translate(5%, -270%);
+        }
+        .wepartner {
+            width: 93%;
+        }
     }
     /******************Our travel guides*****************************************/
     
