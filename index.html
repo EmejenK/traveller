@@ -42,6 +42,7 @@
         </div>
     </header>
 
+
     <!--------------------------------slide show------------------------------------------------->
     <section class="slidder">
         <div class="w3-content w3-display-container">
@@ -85,6 +86,20 @@
             <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
         </div>
+    </section>
+    <!------------------------------Welcome flip box--------------------------------------->
+    <section class="flip">
+        <div class="flip-box">
+            <div id="flipfront">
+                <h5>For The First Time?</h5>
+                <h4>Welcome &#128525</h4>
+            </div>
+            <div id="flipback">
+                <h5>For The Second Time?</h5>
+                <h3>Welcome Back &#128525</h3>
+            </div>
+        </div>
+
     </section>
 
 
@@ -241,7 +256,6 @@
         </div>
     </section>
 
-
     <!----------------------Packages------------------------------------>
     <section class="packages">
         <h3>Our Tour Packages</h3>
@@ -367,12 +381,14 @@
         <h4>Most Explored Places</h4>
         <div class="explored1">
             <div id="place1">
-                <img src="images/indonesia.jpg" alt="">
-                <div class="centered">
-                    <h5>Indonesia</h5>
+                <div id="flip-front">
+                    <img src="images/indonesia.jpg" alt="">
                 </div>
-
-
+                <div id="flip-back">
+                    <div class="centered">
+                        <h5>Indonesia</h5>
+                    </div>
+                </div>
 
             </div>
             <div id="place1">
@@ -444,6 +460,11 @@
                     <h4>VISION</h4>
                     <p>To provide quality services to our esteemed customers across the world.</p>
                 </div>
+                <div class="purpose">
+                    <h4>OUR PURPOSE</h4>
+                    <p>To make it easy and bring your fantisies to reality .</p>
+                </div>
+
 
             </div>
             <div class="social-pages">
