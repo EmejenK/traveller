@@ -42,13 +42,16 @@
     .topbar ul li a {
         text-decoration: none;
         color: black;
-        border-right: 2px solid purple;
-        border-left: 2px solid rgb(236, 233, 14);
     }
     
     .topbar ul li a:hover {
         color: aliceblue;
         transition: 0.5s;
+        background-color: black;
+        padding: 0.5em;
+        border-right: 2px solid purple;
+        border-left: 2px solid rgb(236, 233, 14);
+        border-radius: 5px;
     }
     
     @media screen and (max-width:600px) {
@@ -1391,6 +1394,7 @@
         background-repeat: no-repeat;
         background-size: 100% 350px;
         margin-top: 1em;
+        filter: brightness(90%);
     }
     
     .mission h4 {
