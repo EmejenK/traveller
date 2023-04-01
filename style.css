@@ -13,9 +13,23 @@
         display: flex;
     }
     
+    #q {
+        color: brown;
+    }
+    
+    #w {
+        color: rgb(89, 9, 163);
+    }
+    
+    #e {
+        color: rgb(47, 145, 28);
+    }
+    
     .website-name h3 {
-        padding-left: 170px;
+        padding-left: 120px;
         margin-top: 13px;
+        cursor: pointer;
+        font-size: 2em;
     }
     
     .topbar img {
@@ -80,7 +94,15 @@
             padding-right: 0.9em;
         }
     }
-    /************************slider********************************/
+    /************************background video********************************/
+    
+    .video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        min-height: 100%;
+    }
     /**********************Rest of tha content*********************/
     
     .arti-siderpage {
@@ -443,7 +465,9 @@
     
     @media screen and (max-width:600px) {
         .packages h3 {
+            padding-top: 2em;
             font-size: 2em;
+            margin-right: 7em;
         }
         #places {
             display: block;
@@ -453,6 +477,7 @@
         }
         #first {
             margin-top: 1em;
+            margin-left: 1em;
             width: 24em;
         }
     }
@@ -820,9 +845,14 @@
     
     .service {
         font-size: xx-large;
-        color: #888844;
+        color: #b36b00;
         text-align: center;
         margin-top: 4%;
+    }
+    
+    .service h1 {
+        font-size: 2em;
+        text-shadow: 3px 4px 5px rgba(20, 238, 20, 0.5);
     }
     
     .pics {
@@ -840,7 +870,7 @@
     }
     
     .portion h3 {
-        color: #55552b;
+        color: #b36b00;
         font-size: 26px;
         margin-top: -1em;
     }
@@ -877,7 +907,7 @@
     }
     
     .portion2 h3 {
-        color: #55552b;
+        color: #b36b00;
         font-size: 26px;
         margin-top: -1em;
     }
@@ -1101,6 +1131,22 @@
     }
     /*******************Contact page**********************/
     
+    #time {
+        text-align: center;
+        font-size: 1.7em;
+    }
+    
+    #time p {
+        color: #007399;
+        font-weight: bold;
+        padding-top: 1em;
+    }
+    
+    #time p:hover {
+        color: #e60073;
+        transition: 0.6s;
+    }
+    
     #back a {
         font-size: 1.5em;
         text-decoration: none;
@@ -1118,6 +1164,13 @@
         color: #666600;
         margin-top: 5%;
         text-align: center;
+    }
+    
+    .cont h1 {
+        background-color: #e6e6e6;
+        margin-left: 3em;
+        margin-right: 2.7em;
+        border-radius: 2em;
     }
     
     .icons {
@@ -1148,13 +1201,13 @@
         width: 30%;
         height: 450px;
         border-radius: 1em;
-        background-color: #737373;
+        background-color: #595959;
     }
     
     .form-grp input {
         padding: 1.3em;
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 2.5em;
         width: 20em;
         border: none;
         border-radius: 2px;
@@ -1162,7 +1215,7 @@
     
     .form-grp textarea {
         margin-top: 1em;
-        margin-left: 1em;
+        margin-left: 2.5em;
         width: 22.6em;
     }
     
@@ -1378,6 +1431,7 @@
         margin-left: 50px;
         margin-right: 50px;
         color: #fff;
+        margin-top: 1.5em;
     }
     
     .copyright p {
@@ -1389,12 +1443,15 @@
     
     .footer {
         border: 0px solid red;
-        height: 390px;
-        background-image: url('images/footer.jpg');
-        background-repeat: no-repeat;
-        background-size: 100% 350px;
+        height: 445px;
+        background-color: #333333;
         margin-top: 1em;
         filter: brightness(90%);
+        margin-bottom: 0;
+    }
+    
+    #container {
+        padding-top: 2em;
     }
     
     .mission h4 {
@@ -1414,11 +1471,13 @@
     .mission p {
         margin-left: 0.5em;
         font-style: italic;
+        color: #00a3cc;
     }
     
     .vision p {
         margin-left: 0.5em;
         font-style: italic;
+        color: #00a3cc;
     }
     
     .purpose h4 {
@@ -1431,6 +1490,7 @@
     .purpose p {
         margin-left: 0.5em;
         font-style: italic;
+        color: #00a3cc;
     }
     
     .social-pages {
@@ -1438,12 +1498,16 @@
         padding-top: 1em;
     }
     
+    .social-pages h5 {
+        color: #e60073;
+    }
+    
     .social-pages a {
         display: block;
         text-decoration: none;
         padding-left: 5em;
         padding-top: 1em;
-        color: #73264d;
+        color: #e966a8;
     }
     
     .social-pages a i {

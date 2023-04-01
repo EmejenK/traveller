@@ -13,10 +13,20 @@
 
 </head>
 
-<body style="background-color:  #bfbfbf;">
+<body style="background-color:  #808080;">
     <div id="back">
         <a href="index.html"><i class="fa fa-backward" aria-hidden="true"></i>Back</a>
     </div>
+    <!------------------time-------------------->
+    <div id="time">
+        <h3>Date Today</h3>
+        <script>
+            document.write("<p>" + Date() + "</p>");
+        </script>
+    </div>
+
+    <!------------------time-------------------->
+
     <div class="cont">
         <h1>CONTACT</h1>
         <h4 style="color: #80aaff;padding-top: 4%;">Contact us</h4>
@@ -64,7 +74,7 @@
 
 
                 <input type="text" placeholder="Your Name"> <br>
-                <input type="email" placeholder="Enter Your Email" required> <br>
+                <input type="email" id="demo" placeholder="Enter Your Email" required> <br>
                 <input type="text" placeholder="Subject"><br>
                 <textarea name="text" id="text" placeholder="Message" cols="30" rows="10"></textarea><br>
                 <input type="button" onclick="emejen()" value="Submit" class="submit" style="background-color: #994d00; width: 5em; padding-top: 2em; margin-left: 10em;"></input>
