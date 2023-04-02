@@ -32,6 +32,10 @@
         font-size: 2em;
     }
     
+    .website-name h3 i {
+        color: #660066;
+    }
+    
     .topbar img {
         width: 60px;
         height: 60px;
@@ -213,8 +217,10 @@
     
     .art .article img {
         height: 200px;
-        width: 100%;
-        border-radius: 5%;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .art .article h4 {
@@ -250,8 +256,10 @@
     
     .art2 .article img {
         height: 200px;
-        width: 100%;
-        border-radius: 5%;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     @media screen and (max-width:600px) {
@@ -1127,6 +1135,277 @@
         #third-testmony {
             margin-top: 5em;
             width: 25em;
+        }
+    }
+    /*************services to enjoy with us*************/
+    
+    .services-to h2 {
+        text-align: center;
+        font-size: 1.9em;
+        font-family: tahoma;
+        color: #e60073;
+        padding-top: 1em;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+    
+    #top-services {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #hotels {
+        border: 0px solid red;
+        height: 15em;
+        width: 22em;
+        border-radius: 0.7em;
+        background-color: #e6e6e6;
+    }
+    
+    #hotels h3 {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: kaushon;
+        color: #ff4d4d;
+    }
+    
+    #hotels p {
+        font-size: 1em;
+        padding-top: -2em;
+        padding-left: 1em;
+    }
+    
+    #hotels img {
+        width: 10em;
+        height: 8em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.8em;
+    }
+    
+    #travel {
+        border: 0px solid red;
+        height: 15em;
+        width: 22em;
+        border-radius: 0.7em;
+        background-color: #e6e6e6;
+    }
+    
+    #travel img {
+        width: 10em;
+        height: 8em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.8em;
+    }
+    
+    #travel h3 {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: kaushon;
+        color: #ff4d4d;
+    }
+    
+    #travel p {
+        font-size: 1em;
+        padding-top: -2em;
+        padding-left: 1em;
+    }
+    
+    #food-drinks {
+        border: 0px solid red;
+        height: 15em;
+        width: 22em;
+        border-radius: 0.7em;
+        background-color: #e6e6e6;
+    }
+    
+    #food-drinks img {
+        width: 10em;
+        height: 8em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.8em;
+    }
+    
+    #food-drinks h3 {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: kaushon;
+        color: #ff4d4d;
+    }
+    
+    #food-drinks p {
+        font-size: 1em;
+        padding-top: -2em;
+        padding-left: 1em;
+    }
+    
+    #bottom-services {
+        margin-top: 1em;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #safety {
+        border: 0px solid red;
+        height: 15em;
+        width: 22em;
+        border-radius: 0.7em;
+        background-color: #e6e6e6;
+    }
+    
+    #safety img {
+        width: 10em;
+        height: 8em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.8em;
+    }
+    
+    #safety h3 {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: kaushon;
+        color: #ff4d4d;
+    }
+    
+    #safety p {
+        font-size: 1em;
+        padding-top: -2em;
+        padding-left: 1em;
+    }
+    
+    #adventures {
+        border: 0px solid red;
+        height: 15em;
+        width: 22em;
+        border-radius: 0.7em;
+        background-color: #e6e6e6;
+    }
+    
+    #adventures img {
+        width: 10em;
+        height: 8em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.8em;
+    }
+    
+    #adventures h3 {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: kaushon;
+        color: #ff4d4d;
+    }
+    
+    #adventures p {
+        font-size: 1em;
+        padding-top: -2em;
+        padding-left: 1em;
+    }
+    
+    #rewards {
+        border: 0px solid red;
+        height: 15em;
+        width: 22em;
+        border-radius: 0.7em;
+        background-color: #e6e6e6;
+    }
+    
+    #rewards img {
+        width: 10em;
+        height: 8em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.8em;
+    }
+    
+    #rewards h3 {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: kaushon;
+        color: #ff4d4d;
+    }
+    
+    #rewards p {
+        font-size: 1em;
+        padding-top: -2em;
+        padding-left: 1em;
+    }
+    
+    @media screen and (max-width:600px) {
+        #top-services {
+            display: block;
+        }
+        #bottom-services {
+            display: block;
+        }
+    }
+    
+    @media screen and (max-width:900px) and (min-width:601px) {
+        #hotels {
+            width: 13em;
+        }
+        #hotels p {
+            font-size: x-small;
+        }
+        #travel {
+            width: 13em;
+        }
+        #travel p {
+            font-size: x-small;
+        }
+        #food-drinks {
+            width: 13em;
+        }
+        #food-drinks p {
+            font-size: x-small;
+        }
+        #adventures {
+            width: 13em;
+        }
+        #adventures p {
+            font-size: x-small;
+        }
+        #safety {
+            width: 13em;
+        }
+        #safety p {
+            font-size: x-small;
+        }
+        #rewards {
+            width: 13em;
+        }
+        #rewards p {
+            font-size: x-small;
+        }
+    }
+    
+    @media screen and (max-width:1120px) and (min-width:901px) {
+        #hotels {
+            width: 17em;
+        }
+        #travel {
+            width: 17em;
+        }
+        #food-drinks {
+            width: 17em;
+        }
+        #adventures {
+            width: 17em;
+        }
+        #safety {
+            width: 17em;
+        }
+        #rewards {
+            width: 17em;
         }
     }
     /*******************Contact page**********************/
